@@ -21,7 +21,7 @@ body{
   width: 410px; 
   margin: 20px;
   color: white;
-  justify-content: center;
+  
   
 }
 
@@ -72,20 +72,17 @@ width: 45px;
 
 }
 
-.LIBox:hover {
-  display: none;
-  opacity: 0;
-}
-
-.social{
-  transition: 1s ease-in-out;
-}
 
 .LIBox:hover  {
   display: inline-block;
   width: 45px;
   text-align: center;
-  opacity: .40;
+  display: none;
+  opacity: .45;
   
 
+}
+
+.social{
+  transition: transparency 1s ease-in-out;
 }
